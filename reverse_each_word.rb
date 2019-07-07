@@ -1,6 +1,4 @@
 def reverse_each_word(string)
-  string.each {|word| 
-    word.reverse
-  }
+  string.each {|word| word.reverse}
   string
 end
